@@ -46,8 +46,13 @@
         margin: 0;
         padding: 20px;
     }
-    .sectionOne .text-box{
+    .sectionOne .text-box, .sectionOne .text-box2{
+        box-shadow: none;
         position: static;
+    }
+    .sectionOne .text-box2 a{
+        border: 1px solid black;
+        font-size: 13px;
     }
     .sectionOne .text-box h3{
         font-size: 20px;
